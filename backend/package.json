@@ -5,22 +5,21 @@
   "main": "loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start loader.js --name backend",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "pm2 start loader.js --name backend"
   },
-  "author": "Kleiton Albuquerque",
+  "author": "Leonardo Leitão",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-query-int": "^3.0.0",
-    "lodash": "^4.17.15",
-    "mongoose": "^5.8.11",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-query-int": "^1.0.1",
+    "lodash": "^4.17.2",
+    "mongoose": "^4.7.0",
     "mongoose-paginate": "^5.0.3",
-    "node-restful": "^0.2.6",
-    "pm2": "^4.2.3"
+    "node-restful": "^0.2.5",
+    "pm2": "^2.1.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^1.11.0"
   }
 }
